@@ -1,7 +1,6 @@
 {
   "name": "tailwind",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build:css": "postcss ./src/tailwind.css -o ./public/css/main.css",
@@ -18,5 +17,14 @@
     "prefixer": "0.0.3",
     "tailwindcss": "^2.0.3",
     "win-node-env": "^0.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CintiaCapece/tailwindcss-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CintiaCapece/tailwindcss-website/issues"
+  },
+  "homepage": "https://github.com/CintiaCapece/tailwindcss-website#readme",
+  "description": ""
 }
